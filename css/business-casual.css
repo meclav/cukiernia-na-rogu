@@ -4,14 +4,20 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
-body {
-    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+ body{
+   background: #f0b7a1; /* Old browsers */
+ background: -moz-linear-gradient(left, #f0b7a1 0%, #8c3310 50%); /* FF3.6-15 */
+ background: -webkit-linear-gradient(left, #f0b7a1 0%,#8c3310 50%); /* Chrome10-25,Safari5.1-6 */
+ background: linear-gradient(to right, #f0b7a1 0%,#8c3310 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b7a1', endColorstr='#8c3310',GradientType=1 ); /* IE6-9 */
+   }
+
+@media only screen and (min-width: 768px){
+  body{
     background: url('../img/bg.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    }
 }
+
 
 h1,
 h2,
@@ -42,9 +48,13 @@ hr {
 }
 
 .navbar-brand {
-    text-transform: uppercase;
-    font-weight: 900;
-    letter-spacing: 2px;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+  font-family:"Indie Flower", "Open Sans",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  color: #fff;
 }
 
 .navbar-nav {

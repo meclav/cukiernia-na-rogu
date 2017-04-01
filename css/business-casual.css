@@ -5,7 +5,7 @@
  */
 
 body{
-  background: url('../img/bg.jpg') no-repeat center center fixed;
+  background: url('../img/bg.jpg') no-repeat center center fixed #8f5336;
   }
 
 h1,
@@ -30,7 +30,10 @@ hr {
     max-width: 400px;
     border-color: #999999;
 }
-
+.top{
+  background-color:#B07457;
+  background-image:inherit;
+}
 .brand,
 .address-bar {
     display: none;
@@ -79,8 +82,8 @@ hr {
 .box {
     margin-bottom: 20px;
     padding: 30px 15px;
-    background: #fff;
-    background: rgba(255,255,255,0.9);
+    background-color: #fff;
+    background-color: rgba(255,255,255,0.9);
 }
 
 .intro-text {

@@ -1,1 +1,0 @@
-Strona naszej cukierni. Zapraszamy
